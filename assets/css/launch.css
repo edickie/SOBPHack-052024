@@ -20,7 +20,7 @@
 }
 */
 .logo{
-	flex-basis; 45rem;
+	flex-basis: 45rem;
 	min-width: 45rem;
 	height: auto;
 	align-self:center;

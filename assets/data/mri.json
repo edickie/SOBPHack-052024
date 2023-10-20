@@ -1,0 +1,17 @@
+[
+	{
+		"person":"Grace Jacobs", 
+		"job": "PhD Candidate, Institute of Medical Science, Centre for Addiction and Mental Health",
+	    "bio": "Grace Jacobs works in the Kimel Family Translational Imaging-Genetics Research Lab supervised by Dr. Aristotle Voineskos and Dr. Stephanie Ameis. Her research uses structural and functional magnetic resonance imaging (MRI) and machine learning to study brain circuitry and heterogeneity across youth experiencing psychosis symptoms and neurodevelopmental disorders."
+	},
+    {
+		"person":"Navona Calarco", 
+		"job": "Graduate student, Faculty of Medicine, University of Toronto",
+	    "bio": "Navona’s thesis (Dr. Aristotle Voineskos) involved analyzing diffusion images from a large multisite dataset, collected on six MR scanners over five years. Making sense of the data was quite an adventure, and involved the systematic exploration of multiple preprocessing, harmonization, and white matter analysis methods. As part of a working group formed with others interested in diffusion imaging, she wrote a simple quality control algorithm that pulls from widely available image metrics and largely agrees with human raters. Navona has also contributed to a neuromelanin-sensitive imaging project (Dr. Yuliya Nikolova) that semi-automatically detects signal in brainstem nuclei."
+	},
+	{
+		"person":"Nathan Chan", 
+		"job": "MSc Graduate, University of Toronto",
+	    "bio": "Nathan Chan recently graduated from the Institute of Medical Science at the University of Toronto. He worked with Dr. Ariel Graff-Guerrero at CAMH in the Multi-Modal Imaging Group, where his research examined the structural correlates of neuropsychiatric symptoms in Alzheimer’s Disease. Prior to graduate school, Nathan performed basic science research with the Orser Lab at U of T on traumatic brain injury and anesthetics."
+	}
+]
