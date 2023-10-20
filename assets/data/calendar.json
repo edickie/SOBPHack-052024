@@ -1,0 +1,103 @@
+[
+	{
+		"title": "Workshop Registration and Breakfast",
+		"start": "2019-11-13T08:00:00",
+		"end": "2019-11-13T09:00:00"
+	},
+
+	{
+		"title": "BrainHack Intro to BIDS and MRI Workshop",
+		"start": "2019-11-13T09:00:00",
+		"end": "2019-11-13T10:45:00"
+	},
+	{
+		"title": "Coffee Break",
+		"start": "2019-11-13T10:45:00",
+		"end": "2019-11-13T11:00:00"
+	},
+	{
+		"title": "fMRI Analysis with Python: Part 1",
+		"start": "2019-11-13T11:00:00",
+		"end": "2019-11-13T12:00:00"
+	},
+	{
+		"title": "Lunch Break",
+		"start": "2019-11-13T12:00:00",
+		"end": "2019-11-13T13:00:00"
+	},
+	{
+		"title": "fMRI Analysis with Python: Part 2",
+		"start": "2019-11-13T13:00:00",
+		"end": "2019-11-13T14:45:00"
+	},
+	{
+		"title": "Coffee Break",
+		"start": "2019-11-13T14:45:00",
+		"end": "2019-11-13T15:00:00"
+	},
+	{
+		"title": "dMRI Analysis with Python",
+		"start": "2019-11-13T15:00:00",
+		"end": "2019-11-13T17:00:00"
+	},
+	{
+		"title": "Project Pitch Pizza Party",
+		"start": "2019-11-13T17:15:00",
+		"end": "2019-11-13T20:00:00"
+	},
+	{
+		"title": "Breakfast",
+		"start": "2019-11-14T09:00:00",
+		"end": "2019-11-14T10:00:00"
+	},
+	{
+		"title": "Science Panel",
+		"start": "2019-11-14T10:00:00",
+		"end": "2019-11-14T11:30:00"
+	},
+	{
+		"title": "Open Hacking",
+		"start": "2019-11-14T11:30:00",
+		"end": "2019-11-14T12:30:00"
+	},
+	{
+		"title": "Lunch",
+		"start": "2019-11-14T12:30:00",
+		"end": "2019-11-14T13:00:00"
+	},
+	{
+		"title": "Open Hacking",
+		"start": "2019-11-14T13:00:00",
+		"end": "2019-11-14T17:30:00"
+	},
+	{
+		"title": "Breakfast",
+		"start": "2019-11-15T09:00:00",
+		"end": "2019-11-15T10:00:00"
+	},
+	{
+		"title": "Industry Panel",
+		"start": "2019-11-15T10:00:00",
+		"end": "2019-11-15T12:00:00"
+	},
+	{
+		"title": "Open Hacking",
+		"start": "2019-11-15T12:00:00",
+		"end": "2019-11-15T12:30:00"
+	},
+	{
+		"title": "Lunch",
+		"start": "2019-11-15T12:30:00",
+		"end": "2019-11-15T13:00:00"
+	},
+	{
+		"title": "Open Hacking",
+		"start": "2019-11-15T13:00:00",
+		"end": "2019-11-15T16:30:00"
+	},
+	{
+		"title": "Wrap-up",
+		"start": "2019-11-15T16:30:00",
+		"end": "2019-11-15T17:00:00"
+	}
+]

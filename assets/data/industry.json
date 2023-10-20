@@ -1,0 +1,23 @@
+[
+	{
+		"person":"Dr. April Khademi", 
+		"job": "Principal Investigator, Image Analysis in Medicine Lab",
+	       	"bio": "Dr. April Khademi leads the Image Analysis in Medicine Lab (IAMLAB) at Ryerson University, which brings engineers and clinicians together to investigate image analysis and machine learning software tools for medical images. Before creating IAMLAB, Dr. Khademi worked in research and development with major healthcare institutions in Toronto, including GE Healthcare, Sunnybrook Health Sciences Centre and Toronto Rehabilitation Institute. Dr. Khademi completed her PhD in Electrical Engineering at the University of Toronto in 2012 and MASc at Ryerson University in 2006.  She is a faculty member in the Department of Electrical, Computer, and Biomedical Engineering at Ryerson University and a licensed Professional Engineer in Ontario."
+	},
+	{
+		"person":"Dr. Rosanne Aleong", 
+		"job": "Director of Research, Innovation, and Translation at Rotman Research Instituete",
+	       	"bio": "Dr. Rosanne Aleong manages a research support and services hub as the Director of Research, Innovation, and Translation at Baycrest. She works closely with clinicians, healthcare professionals, and industry to conduct applied and evaluative research, especially for industry-partnered, research and innovation projects. Prior to coming to Toronto, Dr. Aleong received her MSc and PhD in Neurological Sciences from McGill University, where she studied neuroinflammation and body perception in young adults."
+	},
+	{
+		"person":"Dr. Graeme Moffat", 
+		"job": "Neurotechnology industry scientist and entrepreneur. Senior Fellow, Munk School of Public Policy, University of Toronto",
+	       	"bio": "Graeme's interests lie at the intersections of neurotechology, neuroscience, digital health, and commercialization. In addition to his former role as Managing Editor of Frontiers in Neuroscience, Graeme served as Chief Scientist with and Meta (now Chan-Zuckerberg Meta) and later with Interaxon, makers of the world's bestselling neurotechnology, Muse. Graeme is currently a Senior Fellow with the Munk School of Public Policy and a contributor to the OECD's neurotechnology policy initiative."
+	},
+	{
+		"person":"Dr. Cris Micheli", 
+		"job": "Senior Software Engineer, Cognixion",
+	       	"bio": "The mission of Cognixion is to improve the life of disabled non-speaking individuals via Brain-Computer Interface, augmented reality, eye tracking and accessibility technologies. Before that he used to work for MindAffect, a Brain-Computer Interface Dutch company for medical purposes, mostly to bring relief to ALS patients. Cris' background is a PhD in Neuroscience from the University of Tuebingen, Germany, and a Master (plus BE) degree in Biomedical Engineering from Politecnico di Milano, Italy"
+	}
+
+]

@@ -1,0 +1,56 @@
+[{
+   "timestamp": "2019/04/16 4:13:32 pm GMT-4",
+   "contact_address": "mkayvanrad@research.baycrest.org",
+   "user_name": "Aras Kayvanrad",
+   "affiliation": "Rotman Research Institute",
+   "project_title": "Scalable framework for designing and running neuroimaging preprocessing pipelines",
+   "project_pitch": "This project aims to create flexible and scalable fMRI preprocessing pipelines. fMRI Pipeline uses an object-oriented framework to create and run preprocessing pipelines. In this framework, each pipeline consists of a number of preprocessing steps, where each proprocessing step is an object of class PreprocessingStep. This design allows to construct versatile pipelines in which different preprocessing steps can be used in any desired order.",
+   "goals": "",
+   "area_of_interest": "Containerization/Pipelining;Quality Assurance Tools;Statistical Analysis;Visualization;Neuroimaging",
+   "desired_skills": "scipy, nibabel, nipipe, pandas, fsl, afni, freesurfer",
+   "github_link": "https://github.com/kayvanrad/fmri_pipeline"
+},{
+   "timestamp": "2019/04/22 9:35:50 pm GMT-4",
+   "contact_address": "yohan.yee@sickkids.ca",
+   "user_name": "Yohan Yee",
+   "affiliation": "Mouse Imaging Centre, Hospital for Sick Children; Medical Biophysics, University of Toronto",
+   "project_title": "Mapping the mouse brain to the human brain",
+   "project_pitch": "As subjects of MRI experiments, both mice and humans have contributed to our understanding of the how brain develops, functions, and changes in disease states. Yet, our knowledge derived from both fields remains to be integrated and translated between species. With mouse neuroimaging becoming more popular, a tool to translate findings from the mouse to humans and vice versa could be valuable. In other words, if a treatment in a mouse causes brain region A to change in structure, can we predict which regions in the human brain will show a similar change, if at all?\n\nThis project is essentially about building a function that maps a given coordinate in one species to (potentially multiple) coordinates in the other species, with the goal being that this mapping reflects some sort of similarity in the function and evolutionary origins of the pair of coordinates. The complex folding structure of the human cortex, compared to the flat mouse cortex, makes this anatomical registration challenging. Instead, I propose that we use spatial expression patterns of homologous genes as a proxy for common function and origin, and connect regions across species by similarities in their gene expression profiles. Spatial gene expression data for both species are available from the Allen Institute. \n\n",
+   "goals": "Produce a spatial mapping between the mouse brain and the human brain based on gene expression similarity, along with a tool to visualize this mapping and query associated genes",
+   "area_of_interest": "Visualization;Neuroimaging;Genomics;Systems Modelling",
+   "desired_skills": "R and associated packages (tidyverse, RMINC, shiny); Python, pyminc",
+   "github_link": ""
+},{
+   "timestamp": "2019/05/10 9:28:32 am GMT-4",
+   "contact_address": "dbeaton@research.baycrest.org",
+   "user_name": "Jenny Rieck & Derek Beaton",
+   "affiliation": "Rotman Research Institute",
+   "project_title": "C-MARINeR: multi-table PCA for group & individual connectivity profiles",
+   "project_pitch": "C-MARINeR is a focused sub-project MARINeR: Multivariate Analysis and Resampling Inference for Neuroimaging in R. The \"C\" stands generally for connectivity, but specifically and statistically: covariance or correlation. The C-MARINeR project aims to develop and distribute an R package and ShinyApp. Together, R + Shiny allows for ease of use and, hopefully, simpler exploration of such complex data, and quicker adoption of the techniques.\n\nCovSTATIS is the base method in C-MARINeR. CovSTATIS is effectively a multi-table PCA designed for covariance matrices. CovSTATIS allows for multiple connectivity (correlation or more generally covariance) matrices to be integrated into a single analysis. CovSTATIS produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), and then projects each individual matrix back onto the components. \n\nK+1CovSTATIS is a novel extension of CovSTATIS that allows us to use a \"target\" or reference matrix. For example, a theoretical resting state structure (a la Yeo/Schaffer maps). K+1CovSTATIS also produces component (a.k.a. factor) maps with respect to the compromise matrix (weighted average), except the compromise matrix is no longer a weighted average of all matrices, rather, it is a weighted average of all matrices with respect to a \"target\" matrix. Then each of those matrices are projected back onto the components.\n",
+   "goals": "Our primary goal is to make a small package and ShinyApp to perform the same types of analyses we use for integrating and analyzing multiple connectivity matrices (across tasks, individuals, and groups). We want to make CovSTATIS and similar methods easily accessible.\n\nSee our Github page for task lists, tools, and how to participate",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Cognitive Neuroscience",
+   "desired_skills": "Primary: R, various R packages, git/github, RStudio, Shiny. Secondary: HTML, CSS, Possibly Rcpp/RcppEigen/RcppArmadillo",
+   "github_link": "https://github.com/jennyrieck/C-MARINeR"
+},{
+   "timestamp": "2019/05/10 2:01:25 pm GMT-4",
+   "contact_address": "leon.french@utoronto.ca",
+   "user_name": "Leon French",
+   "affiliation": "KCNI, CAMH",
+   "project_title": "Exploring images and expression of single cells",
+   "project_pitch": "Advances in microfluidics, RNA sequencing and barcoding have enabled transcriptomic profiling of thousands of individual cells. These methods have been particularly helpful in understanding distinct patterns of cell type-specific gene expression. In addition to transcriptomic based cellular profiling, morphological and physiological measures are also used to discriminate cell-types. \n\nThis project will integrate images (20x) of cells with single-cell gene expression to better understand relationships between the molecular and cellular scales. The source data is derived from the 3,005 cells assayed in the Zeisel et al. (2015) single cell study of the mouse CA1 and S1 brain regions. \n\nThis project will extend previous work that used image processing and computer vision techniques to automatically extract image and cell morphology features by Minh An Ho and Leon French. We will intersect these features with transcriptomic data from the same cells, and specifically, previous approaches for identifying multi-cell contamination in single-cell RNA-seq data developed by Shreejoy Tripathy. With image and expression features for each cell, we will test if contamination of other cell-types can be detected from the images. Our work will also determine and characterize which genes are associated with image features and test if they are also correlated with electrophysiological properties. ",
+   "goals": "",
+   "area_of_interest": "Machine Learning;Statistical Analysis;Visualization;Neuroimaging;Genomics",
+   "desired_skills": "pandas, tidyverse",
+   "github_link": "https://github.com/leonfrench/BrainHack2019Project"
+},{
+   "timestamp": "2019/05/17 1:41:47 pm GMT-4",
+   "contact_address": "jordandekraker@gmail.com",
+   "user_name": "Jordan DeKraker",
+   "affiliation": "University of Western Ontario",
+   "project_title": "Hippocampal unfolding across datasets, modalities, or species",
+   "project_pitch": "Our lab has developed a pipeline to computationally unfold the human hippocampus, which is helpful for mapping its morphological properties, delineating its subfields, as well as for visualization. We're still working on full automation of this pipeline using deep learning (CNN via NiftyNet) and would be interested to receive feedback or suggestions. We're also looking for collaborators who would be interested in extending this pipeline to new datasets, imaging modalities, or perhaps even different species. ",
+   "goals": "Looking for feedback, suggestions, or collaborators interested in extending our pipeline to new data",
+   "area_of_interest": "Open data initiatives (e.g: standardization, file formats, open datasets);Machine Learning;Visualization;Neuroimaging;Cognitive Neuroscience",
+   "desired_skills": "Matlab, NiftyNet, ANTs, BIDS",
+   "github_link": "https://github.com/jordandekraker/Hippunfolding"
+}]

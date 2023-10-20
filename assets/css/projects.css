@@ -1,0 +1,122 @@
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+/* 
+h3 {
+    font-size: 1.25em;
+}
+
+.projects {
+    text-align: center;
+}
+    h2 {
+        color: #666;
+        font-weight: 100;
+        margin-bottom: 0em;
+        line-height: 1.5em;
+        font-size: 2em
+    }
+
+    ul {
+        padding-left: 15pt;
+    }
+
+    p {
+        padding-left: 15pt
+    }
+
+    .pitch {
+        width: 45%;
+        height: 500px;
+        position: relative;
+        display: inline-block;
+        float: none;
+        background-color: #fff;
+        margin-top: 10px;
+        vertical-align: middle;
+    }
+
+    .pitch header img {
+      border-radius: 100%;
+      height: 100px;
+      width: 100px;
+    }
+
+    .pitch p {
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 736px) {
+      .pitch {
+        Display: block;
+        Width: 100%;
+      }
+    } */
+
+    .prj {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        background-color: #f4f6f9;
+        padding: 1.5em;
+    }
+
+    .prj-header {
+        padding: 0.25em;
+        text-align: center;
+        background: #f4f6f9;
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .logo{
+        max-width: 25%;
+        height: auto;
+        float: left;
+        clear: both;
+    }
+    #header-logo {
+        background-color: white;
+    }
+    .header-text {
+        font-size: 2em;
+        font-weight: 100;
+        margin-bottom: 0;
+    }
+
+    #prj-link {
+	font-family: 'Montserrat';
+	font-size: 0.65em;
+        color: black;
+        margin-bottom: 1.5em;
+    }
+    
+    .sug-prj {
+        text-align: left;
+        font-weight: 700;
+        border-bottom: 2px solid rgba(139, 0, 0, 0);
+        -o-transition: 0.5s;
+          -ms-transition: 0.5s;
+          -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        transition: 0.5s ease-in-out;  
+    }
+    .sug-prj:hover {
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid rgba(139, 0, 0, 1);
+    }
+
+    .sug-prj-h2 {
+        text-align: left;
+        clear: both;
+        color: black;
+        padding-left: 0.5em;
+    }

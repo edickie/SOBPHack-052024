@@ -1,0 +1,694 @@
+<!DOCTYPE HTML>
+<!--
+	Tessellate by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Global Toronto 11-2019</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/index.css"/>
+
+
+	<!-- Full Calender -->
+	<link href='assets/js/fullcalendar/packages/core/main.css' rel='stylesheet' />
+	<link href='assets/js/fullcalendar/packages/list/main.css' rel='stylesheet' />
+
+	<script src='assets/js/fullcalendar/packages/core/main.js'></script>
+	<script src='assets/js/fullcalendar/packages/list/main.js'></script>
+	<script src="assets/js/jquery.min.js"></script>
+
+
+	<!-- Script for calendar -->
+    	<script>
+		// Get JSON callsback addDocument...
+		document.addEventListener('DOMContentLoaded', addDocument)
+		function addDocument(){
+			$.getJSON("assets/data/calendar.json", function(data){
+				console.log(data)
+				var calendarEl = document.getElementById('calendar');
+				var calendar = new FullCalendar.Calendar(calendarEl, {
+					plugins: [ 'list' ],
+					defaultView: 'listWeek',
+					validRange: {
+						start: "2019-11-13",
+						end: "2019-11-16"
+					},
+					events: data
+				});
+			calendar.render();
+			});
+      		}
+    	</script>
+
+
+</head>
+
+<body>
+
+	<!-- Header -->
+
+    <div class="header-logo">
+
+		<div><img class="logo" src="./images/BrainHack/SVG/coverArt.svg" alt="retro-brain-logo"></div>
+
+		<div id="reg-link"><a href="https://brainhackto.github.io/global-toronto-12-2021/">This event is over - but click here to visit BrianHack 2021!</a></div>
+	  </div>
+
+
+	<!-- First -->
+	<section id="info" class="main">
+		<header>
+			<div class="container">
+				<h2> Why Brainhack ?</h2>
+
+				<p> BrainHacks are collaborative events that focus on the open sharing of ideas, models, code, and data. They bring together brain experts and enthusiasts from a variety of backgrounds to build relationships, learn from one another, and collaborate on projects related to the neurosciences. </p>
+
+				<p> The theme of this year's Brainhack Toronto is <b> Individuality in the Age of Big NeuroData </b> which is an effort to advocate for the exploration and development of tools related to inter- and intra-individual variability across multiple scales (gender, sex, diagnosis, etc...). The exploration and Neuro-Diversity has immense practical utility with the emerging personalization of both disease treatment and understanding of brain function. Participants at BrainHack Global Toronto 2019 will have opportunities to work with like-minded scientists through either submitting an organized project or engaging in one. We also encourage new programmers and students/scientists to participate, we will provide learning opportunities through both our extensive <b>Python Neuroimaging Workshop</b>, and <b>Guided Projects</b> to help kickstart your growth as a neurohacker!
+
+				<p> Join us on <a href="https://mattermost.brainhack.org/brainhack/channels/brainhack-toronto" target="_blank">Mattermost</a> in the <b>#brainhack-toronto</b> channel to join the community and start planning your projects! </p>
+
+				</br>
+				<div>
+					<table>
+						<tr>
+							<td align="left">
+								<b>Dates:</b>
+							</td>
+							<td align="left">Nov 13-15, 2019</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<b>Cost:</b>
+							</td>
+							<td align="left">C$30 for registration with onsite breakfast & lunch</td>
+						</tr>
+						<tr>
+							<td align="left">
+								<b>Location:</b>
+							</td>
+							<td align="left">The Krembil Centre for Neuroinformatics, 250 College St., Toronto, Ontario, M5T 1R8</th>
+						</tr>
+					</table>
+				</div>
+				</br>
+				<div class="map-responsive">
+
+					<!-- Change z=xx for map zoom-->
+					<iframe src="https://maps.google.com/maps?q=250%20College%20St%2C%20Toronto%2C%20ON%20M5T%201R8&t=&z=16&ie=UTF8&iwloc=&output=embed"
+					    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</header>
+		<div class="content dark style1 featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-graduation-cap"></span>
+							</span>
+							<header>
+								<h3>Learn</h3>
+							</header>
+							<p>Learn about tools, techniques and datasets in neuroimaging research.</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-comments"></span>
+							</span>
+							<header>
+								<h3>Be Social</h3>
+							</header>
+							<p>Meet researchers from a variety of backgrounds. Share your knowledge.</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<section>
+							<span class="feature-icon">
+								<span class="icon fa-gears"></span>
+							</span>
+							<header>
+								<h3>Get Involved</h3>
+							</header>
+							<p>Find exciting projects that you would like to contribute to.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Second -->
+	<section id="schedule" class="main">
+		<header>
+			<div class="container">
+				<h2>Program:</h2>
+				<p>
+					This three day event will bring together local scientists and trainees in neuroimaging from institutions across the region.
+					The program will include:
+				</p>
+
+
+			<div class="row">
+				<div class="4u 12u(narrow)">
+					<a href="https://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0121-x" target="_blank" class="image fit">
+						<img src="images/what_is_brainhack.gif" alt="" />
+					</a>
+				</div>
+				<div class="6u 12u(narrow)">
+					<ul class="info">
+						<li class="icon fa-cog">
+							<!-- Update information for better interoperability -->
+							<b>Open hacking</b> sessions in which attendees will work together on projects of their own design. Attendees are encouraged, but not required,
+							to work on projects exploring the theme of <b>Individuality in the Age of Big NeuroData</b>. Project inspirations could stem from other projects proposed by attendees,
+							ongoing work you're involved in, or new research areas that you've been waiting to have an opportunity to jump on!
+							This is a great opportunity for fruitful collaboration and to explore areas of software development,
+							computational modelling, and data analysis.
+							</li>
+						<li class="icon fa-bullhorn">
+							<!-- Update information depending on what's actually happening -->
+							<b>Two Panelist Discussions</b> will take place in this year's BrainHack Global Toronto. Attendees will have the opportunity to listen in on and engage with panelists in a themed discussion featuring leaders in science (Panel 1) and industry (Panel 2).
+							</li>
+							<!-- No longer relevant, use TrainTracks -->
+						<li class="icon fa-train"> <b> Neuroimaging Workshops </b> to help you get up to speed with current practices in open-source and reproducible neuroimaging analysis
+							using Python.
+						</li>
+						<li> <i class="fas fa-hands-helping"></i> <b> Guided Projects </b> are fully specified projects meant to get you up to speed with collaborative programming within the context of Neuroscience. You'll be provided with various avenues for contribution in a project exploring variability from different perspectives and modalities.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+				<div class="row">
+					<h2>Schedule</h2>
+				</div>
+
+				<div id='calendar' style="padding: 0 0 2em 0"></div>
+
+
+				<div class="row">
+					<h2>Panels</h2>
+				</div>
+
+				<p>
+					This year we will feature two panelist discussions:
+				</p>
+
+				<div class="row" style="padding: 0 0 2em 0">
+					<h3>Science Panelists</h3>
+				</div>
+
+					<!-- Add flexbox div container horizontal here use placeholder-->
+					<div class="panelists">
+
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/skinner_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/yuliya_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/andreaa_cropped.jpg" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/barnese.png" alt="panelist-box"></div>
+						<div class="science-box"><img class="panelist-box" src="./images/panelists/dan.png" alt="panelist-box"></div>
+
+					</div>
+
+					<!-- Goal on hover of above, call a JS script that
+	     				writes into panelist-test-->
+					<div class="text-parent">
+						<div id="science-person"></div>
+						<div id="science-job"></div>
+						<div id="science-bio"></div>
+					</div>
+
+
+
+				<div class="row" style="padding: 0 0 2em 0">
+					<h3>Industry Panelists</h3>
+				</div>
+
+					<!-- Add flexbox div container horizontal here -->
+					<div class="panelists">
+
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/april.jpg" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/roseanne.jpg" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/graeme.jpg" alt="panelist-box"></div>
+						<div class="industry-box"><img class="panelist-box" src="./images/panelists/CrisMicheli.jpg" alt="panelist-box"></div>
+					</div>
+
+					<div class="text-parent">
+						<div id="industry-person"></div>
+						<div id="industry-job"></div>
+						<div id="industry-bio"></div>
+					</div>
+
+				<div class="row">
+					<h2>Workshops</h2>
+				</div>
+
+
+				<p>
+					BrainHack Global Toronto 2019 will feature a one-day workshop in order to enhance the computational literacy of neuroscientists across all levels. This year will feature
+					a one-day neuroimaging workshop developed collaboratively by scientists and analysts across multiple institutions in Ontario and Quebec. In this workshop attendees will learn
+					about data organization standards in neuroimaging (BIDS), in addition to fundamentals in handling neuroimaging data in Python. Finally we'll explore open-source packages
+					built in Python and use them to handle and analyze both Diffusion MRI and Functional MRI data.
+
+					Workshop resources can be found here: <a href="https://github.com/jerdra/SDC-BIDS-fMRI">Python Neuroimaging Workshop</a>
+
+				</p>
+
+				<div class="row">
+					<h2>Guided Projects</h2>
+				</div>
+				<p>
+				Will be announced...
+				</p>
+
+				<div class="row">
+				  <h2>Meet Our Team</h2>
+
+				</div>
+
+				  <div class="subcomittee-container">
+				          <div class="flex-item"><img src="./images/committee/erin.jpeg">
+				          <div class="description-text">
+				              <div>Erin Dickie</div>
+				              <div>Chair</div>
+				          </div>
+				          </div>
+				          <div class="flex-item"><img src="./images/committee/Sean-Hill.jpg">
+				      <div class="description-text">
+				              <div>Sean Hill</div>
+				              <div>Co-Chair</div>
+				      </div>
+				        </div>
+				        <div class="flex-item"><img src="./images/committee/John.jpg">
+				        <div class="description-text">
+				            <div>John Griffiths</div>
+				            <div>Projects</div>
+				        </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/jer.jpg">
+				      <div class="description-text">
+				              <div>Jerrold Jeyachandra</div>
+				              <div>Projects and Design</div>
+				      </div>
+				        </div>
+				        <div class="flex-item"><img src="./images/committee/Sonya.jpg">
+				    <div class="description-text">
+				            <div>Sonya Bells</div>
+				            <div>Projects</div>
+				    </div>
+				      </div>
+							<div class="flex-item"><img src="./images/committee/Anil-2019Oct23.jpg">
+						<div class="description-text">
+										<div>Anil Trikha</div>
+										<div>Projects</div>
+						</div>
+						</div>
+				        <div class="flex-item"><img src="./images/committee/Shreyas.jpg">
+				    <div class="description-text">
+				            <div>Shreyas Harita</div>
+				            <div>Projects and Logistics</div>
+				    </div>
+				      </div>
+							<div class="flex-item"><img src="./images/committee/person101.png">
+				<div class="description-text">
+										<div>Mah Parsa</div>
+										<div>Projects and Sponsors</div>
+				</div>
+					</div>
+				          <div class="flex-item"><img src="./images/committee/david.jpeg">
+				      <div class="description-text">
+				              <div>David Rotenberg</div>
+				              <div>Logistics</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/nat.jpg">
+				      <div class="description-text">
+				              <div>Natalie Forde</div>
+				              <div>Logistics</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/thomas.jpg">
+				      <div class="description-text">
+				              <div>Thomas Tan</div>
+				              <div>Logistics and Design</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/grace.jpeg">
+				      <div class="description-text">
+				              <div>Grace Jacobs</div>
+				              <div>Science Panel</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/lindsay.jpg">
+				      <div class="description-text">
+				              <div>Lindsay Oliver</div>
+				              <div>Science Panel</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/Nedaedited.jpg">
+				      <div class="description-text">
+				              <div>Neda Rashidi-Ranjbar</div>
+				              <div>Science Panel</div>
+				      </div>
+				        </div>
+				        <div class="flex-item"><img src="./images/committee/michael.jpg">
+				    <div class="description-text">
+				              <div>Michael Joseph</div>
+				              <div>Science Panel</div>
+				    </div>
+				      </div>
+				      <div class="flex-item"><img src="./images/committee/nathan.jpg">
+				  <div class="description-text">
+				              <div>Nathan Chan</div>
+				              <div>Industry Panel</div>
+				  </div>
+				    </div>
+				          <div class="flex-item"><img src="./images/committee/yuli.jpg">
+				      <div class="description-text">
+				              <div>Yuli Jadov</div>
+				              <div>Industry Panel</div>
+				      </div>
+				        </div>
+				      <div class="flex-item"><img src="./images/committee/derek.png">
+				  <div class="description-text">
+				              <div>Derek Beaton</div>
+				              <div>Industry Panel and Projects </div>
+				  </div>
+				    </div>
+						<div class="flex-item"><img src="./images/committee/Sonja.png">
+				<div class="description-text">
+								<div>Sonja Stojanovski</div>
+								<div>Industry Panel</div>
+				</div>
+					</div>
+				          <div class="flex-item"><img src="./images/committee/gabi.jpg">
+				      <div class="description-text">
+				              <div>Gabi Herman</div>
+				              <div>Advertise</div>
+				      </div>
+				        </div>
+				          <div class="flex-item"><img src="./images/committee/person101.png">
+				      <div class="description-text">
+				              <div>Romeo Penheiro</div>
+				              <div>Advertise</div>
+				      </div>
+				        </div>
+				      </div>
+
+			<div class="container">
+				<div class="12u 12u(narrow)">
+
+					<!-- <h2>Social Events</h2> -->
+					<div class="row">
+						<div class="3u"></div>
+						<!-- <div>
+							<i class="icon fa-code"></i> Hacknight with
+							<a href="http://neurotechx.com/chapter/1531/">NeuroTechTO</a> on Thursday evening @ Mozilla
+						</div> -->
+					</div>
+					<div class="row">
+						<div class="3u"></div>
+						<!--<div>
+							<i class="icon fa-coffee"></i> A social outing on Friday evening @
+							<a href="http://fabrestaurants.ca/restaurant/thegoodman/">Goodman Pub & Kitchen</a>
+						</div> --->
+					</div>
+
+				</div>
+			</div>
+		</header>
+	</section>
+
+
+
+
+
+
+	<section id="projects" class="main">
+		<div class="content dark style2">
+			<div class="container">
+				<div class="row">
+					<div class="8u 12u(narrow)">
+						<section>
+							<h3>Project Ideas</h3>
+							<p>
+								Open hacking projects are a great forum for getting support on a technical issue from your own research program or starting
+								a new collaborative project. Check out our full
+
+								<a href="projects.html" target="_blank">project listing</a> or
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">suggest your own</a>. Those who submit the first 5 projects will be rewarded with
+								<em>FREE REGISTRATION.</em>
+							</p>
+						</section>
+					</div>
+					<div class="4u 12u(narrow)">
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSe87uijqLn3oYA3CiZ4BWmYe9z6SYHd9r05hBLc5zU6RomJ_A/viewform?usp=sf_link" target="_blank">
+							<span class="feature-icon">
+								<span class="icon fa-clipboard"></span>
+							</span>
+							<h4>Suggest a Project</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SPONSORS -->
+	<section id="sponsors" class="main">
+			<header>
+			<div class="container">
+				<h2>Thank you to our Sponsors!</h2>
+			</div>
+
+			<div class="row">
+
+				<div class="2u">
+					<a href="http://braininstitute.ca/" target="_blank" class="image fit">
+						<img src="images/OBI_logp.png" alt="" />
+					</a>
+				</div>
+
+				<div class="2u">
+					<a href="https://conp.ca/" target="_blank" class="image fit">
+						<img src="images/conp_logo.png" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="http://www.camh.ca/en/research/research_areas/krembil-centre-for-neuroinformatics" target="_blank" class="image fit">
+						<img src="images/KCNI_with_brain.jpeg" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="https://www.opereason.com/" target="_blank" class="image fit">
+						<img src="images/OpereasonLogo.jpg" alt="" />
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+			<div class="3u">
+				<a href="https://www.cabhi.com/" target="_blank" class="image fit">
+					<img src="images/baycrest_CABHI.jpeg" alt="" />
+				</a>
+			</div>
+			<div class="3u">
+				<a href="https://toni.psych.utoronto.ca/" target="_blank" class="image fit">
+					<img src="images/toni.png" alt="" />
+					<img src="images/psych_black.png"
+				</a>
+			</div>
+			<div class="3u">
+				<a href="https://www.baycrest.org/Baycrest/Research-Innovation/About-Us/Rotman-Research-Institute" target="_blank" class="image fit">
+					<img src="images/new_RRI_logo.jpg" alt="" />
+				</a>
+			</div>
+			<div class="2u">
+				<a class="image fit">
+					<img src="images/AIML.png" alt="" />
+				</a>
+			</div>
+	</div>
+
+			</header>
+		</div>
+
+
+	</section>
+	<section id="sponsors" class="main">
+		<header>
+			<div class="container">
+				<h2>Bringing together minds from:</h2>
+			</div>
+			<div class="row">
+				<div class="2u">
+					<a href="https://www.baycrest.org/Baycrest/Research-Innovation/About-Us/Rotman-Research-Institute" target="_blank" class="image fit">
+						<img src="images/baycrest_logo_padded.png" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="http://www.mouseimaging.ca/" target="_blank" class="image fit">
+						<img src="images/mice_logo_padded.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="https://neurotechx.herokuapp.com/" target="_blank" class="image fit">
+						<img src="images/neurotechx_logo.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="http://www.camh.ca" target="_blank" class="image fit">
+						<img src="images/camh-logo-ENGLISH-rgb.jpg" alt="" />
+					</a>
+				</div>
+				<div class="3u">
+					<a href="http://www.uhn.ca/KNC" target="_blank" class="image fit">
+						<img src="images/logo-knc.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="2u">
+					<a href="http://braininstitute.ca/" target="_blank" class="image fit">
+						<img src="images/mozilla-.png" alt="" />
+					</a>
+				</div>
+				<div class="2u">
+					<a href="http://www.stmichaelshospital.com/" target="_blank" class="image fit">
+						<img src="images/st_michaels.png" alt="" />
+					</a>
+				</div>
+
+			</div>
+			<div class="container">
+				<h2>...and many more!</h2>
+			</div>
+		</header>
+	</section>
+
+
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li>
+				<a href="mailto:erin.w.dickie@gmail.com" target="_blank" class="icon fa-envelope">
+					<span class="label">Email</span>
+				</a> Email</li>
+			<li>
+				<a href="https://brainhack-slack-invite.herokuapp.com/" target="_blank" class="icon fa-slack">
+					<span class="label">Slack</span>
+				</a> Slack</li>
+			<li>
+				<a href="https://twitter.com/brainhackto" target="_blank" class="icon fa-twitter">
+					<span class="label">Twitter</span>
+				</a> Twitter</li>
+			<li>
+				<a href="https://github.com/brainhackto/Global-Toronto-11-2019" target="_blank" class="icon fa-github">
+					<span class="label">GitHub</span>
+				</a> GitHub</li>
+			<li>
+				<a href="http://www.brainhack.org/code-of-conduct.html" target="_blank" class="icon fa-child">
+					<span class="label">Code of Conduct</span>
+				</a> Code of Conduct</li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; 2018 Brainhack MTL.</li>
+				<li>Design:
+					<a href="http://html5up.net">HTML5 UP</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Script for writing into divs science-text -->
+	<script>
+		// Get relevant elements
+		var science_boxes = Array.from(document.getElementsByClassName("science-box"))
+		// This function will write into a div
+		function displayScience(evt){
+			var person = evt.currentTarget.person;
+			var job = evt.currentTarget.job;
+			var bio = evt.currentTarget.bio;
+			console.log(evt.currentTarget);
+			console.log(person);
+			console.log(job);
+			console.log(bio);
+			// Fill in
+			$("#science-person").fadeOut( function(evt) {
+				$(this).text(person).fadeIn();
+			});
+			$("#science-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
+			});
+			$("#science-bio").fadeOut( function(evt) {
+				$(this).text(bio).fadeIn();
+			});
+		}
+		// Read JSON object
+		$.getJSON("assets/data/science.json",function(data){
+		      // For each science-box assign an event listener
+		      science_boxes.map( (obj, ind) => {
+			console.log(obj)
+			console.log(ind)
+		      	obj.person = data[ind].person
+		      	obj.job = data[ind].job
+		      	obj.bio = data[ind].bio
+		      	obj.addEventListener("mouseover",displayScience)
+		      });
+		});
+	</script>
+
+	<!-- Script for writing into divs industry-text -->
+	<script>
+		// Get relevant elements
+		var industry_boxes = Array.from(document.getElementsByClassName("industry-box"))
+		// This function will write into a div
+		function displayIndustry(evt){
+			var person = evt.currentTarget.person;
+			var job = evt.currentTarget.job;
+			var bio = evt.currentTarget.bio;
+			$("#industry-person").fadeOut( function(evt) {
+				$(this).text(person).fadeIn();
+			});
+			$("#industry-job").fadeOut( function(evt) {
+				$(this).text(job).fadeIn();
+			});
+			$("#industry-bio").fadeOut( function(evt) {
+				$(this).text(bio).fadeIn();
+			});
+		}
+		// Read JSON object
+		$.getJSON("assets/data/industry.json",function(data){
+		      // For each science-box assign an event listener
+		      industry_boxes.map( (obj, ind) => {
+		      	obj.person = data[ind].person
+		      	obj.job = data[ind].job
+		      	obj.bio = data[ind].bio
+		      	obj.addEventListener("mouseover",displayIndustry)
+		      });
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: #ffffff;
+}
+
+.container.schedule td.sEvent:hover{
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2em;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #ecd1e1;
+    color: white;
+    color: black;
+    font-weight: 300;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.time, .details {
+    text-align: left;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
