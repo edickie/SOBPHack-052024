@@ -1,92 +1,97 @@
 [
 	{
-		"title": "Registration, Breakfast, and Ice Breaker",
-		"start": "2022-12-08T09:00:00",
-		"end": "2022-12-08T09:30:00"
+		"title": "Registration & Breakfast",
+		"start": "2023-12-14T09:30:00",
+		"end": "2023-12-14T10:00:00"
 	},
 	{
-		"title": "BrainHack Introduction and Welcome",
-		"start": "2022-12-08T09:30:00",
-		"end": "2022-12-08T10:00:00"
+		"title": "BrainHack Introduction, Welcome, and Ice Breaker",
+		"start": "2023-12-14T10:00:00",
+		"end": "2023-12-14T10:45:00"
 	},
 	{
-		"title": "Project and Ask-Me-Anything Pitches",
-		"start": "2022-12-08T10:00:00",
-		"end": "2022-12-08T11:00:00"
+		"title": "Coffee Break",
+		"start": "2023-12-14T10:45:00",
+		"end": "2023-12-14T11:00:00"
 	},
 	{
-		"title": "Open Hacking",
-		"start": "2022-12-08T11:00:00",
-		"end": "2022-12-08T12:00:00"
+		"title": "Introductions to Available Data",
+		"start": "2023-12-14T11:00:00",
+		"end": "2023-12-14T11:30:00"
+	},	
+	{
+		"title": "Project Pitch",
+		"start": "2023-12-14T11:30:00",
+		"end": "2023-12-14T12:00:00"
 	},
 	{
 		"title": "Lunch Break & Networking with People at Different Career Stages",
-		"start": "2022-12-08T12:00:00",
-		"end": "2022-12-08T13:00:00"
+		"start": "2023-12-14T12:00:00",
+		"end": "2023-12-14T13:00:00"
 	},
 	{
 		"title": "Open Hacking",
-		"start": "2022-12-08T13:00:00",
-		"end": "2022-12-08T14:45:00"
+		"start": "2023-12-14T13:00:00",
+		"end": "2023-12-14T14:45:00"
 	},
 	{
 		"title": "Coffee Break",
-		"start": "2022-12-08T14:45:00",
-		"end": "2022-12-08T15:00:00"
+		"start": "2023-12-14T14:45:00",
+		"end": "2023-12-14T15:00:00"
 	},
 	{
 		"title": "Open Hacking",
-		"start": "2022-12-08T15:00:00",
-		"end": "2022-12-08T16:00:00"
+		"start": "2023-12-14T15:00:00",
+		"end": "2023-12-14T16:00:00"
 	},
 	{
 		"title": "Ask-Me-Anything Hour",
-		"start": "2022-12-08T16:00:00",
-		"end": "2022-12-08T17:00:00"
+		"start": "2023-12-14T16:00:00",
+		"end": "2023-12-14T17:00:00"
 	},
 	{
 		"title": "Breakfast and Open Hacking (Recommanded Project Set-Up Time)",
-		"start": "2022-12-09T09:00:00",
-		"end": "2022-12-09T09:45:00"
+		"start": "2023-12-15T09:00:00",
+		"end": "2023-12-15T09:45:00"
 	},
 	{
 		"title": "Coffee Break",
-		"start": "2022-12-09T09:45:00",
-		"end": "2022-12-09T10:00:00"
-	},
-	{
-		"title": "Open Hacking",
-		"start": "2022-12-09T10:00:00",
-		"end": "2022-12-09T11:00:00"
+		"start": "2023-12-15T09:45:00",
+		"end": "2023-12-15T10:00:00"
 	},
 	{
 		"title": "Panel Discussion",
-		"start": "2022-12-09T11:00:00",
-		"end": "2022-12-09T12:30:00"
+		"start": "2023-12-15T10:00:00",
+		"end": "2023-12-15T11:00:00"
+	},
+	{
+		"title": "Social Discussion/Open Hacking",
+		"start": "2023-12-15T11:00:00",
+		"end": "2023-12-15T12:00:00"
 	},
 	{
 		"title": "Lunch Break / Social Discussions",
-		"start": "2022-12-09T12:30:00",
-		"end": "2022-12-09T14:00:00"
+		"start": "2023-12-15T12:00:00",
+		"end": "2023-12-15T13:00:00"
 	},
 	{
 		"title": "Open Hacking",
-		"start": "2022-12-09T14:00:00",
-		"end": "2022-12-09T15:30:00"
+		"start": "2023-12-15T13:00:00",
+		"end": "2023-12-15T15:30:00"
 	},
 	{
 		"title": "Project Presentation and Wrap-Up",
-		"start": "2022-12-09T15:30:00",
-		"end": "2022-12-09T17:00:00"
+		"start": "2023-12-15T16:00:00",
+		"end": "2023-12-15T17:30:00"
 	},
 	{
 		"title": "Skating at Varsity Arena Ice Rink (ground level of varsity centre at 299 Bloor St W)",
-		"start": "2022-12-09T17:30:00",
-		"end": "2022-12-09T18:30:00"
+		"start": "2023-12-15T18:00:00",
+		"end": "2023-12-15T19:30:00"
 	},
 	{
-		"title": "Game, Food, and Drink Social at Bangarang (552 college street)",
-		"start": "2022-12-09T19:00:00",
-		"end": "2022-12-09T21:45:00"
+		"title": "Game, Food, and Drink Social (Location TBD)",
+		"start": "2023-12-15T19:30:00",
+		"end": "2023-12-15T21:45:00"
 	}
 ]
