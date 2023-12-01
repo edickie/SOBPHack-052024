@@ -1,27 +1,22 @@
 [
 	{
-		"person":"Dr. Derek Beaton", 
-		"job": "Director, Advanced Analytics at Data Science & Advanced Analytics (DSAA), \nSt. Michael’s Hospital, Unity Health Toronto",
-	    "bio": "Derek is the director of the Advanced Analytics team in DSAA at Unity Health Toronto. The Advanced Analytics is a one-of-a-kind team of experts across statistics, computer science, machine learning, medical imaging, engineering, and operations research. The Advanced Analytics team works with a wide variety of collaborators to deploy analytics solutions across Unity Health Toronto’s hospitals. Prior to coming to Toronto, Derek received his PhD in Cognition & Neuroscience from University of Texas at Dallas, where he focused on multivariate methods for mixed data (clinical, behavioral, genetic, neuroimaging, etc.). Prior to joining DSAA, Derek was a postdoctoral fellow at the Rotman Research Institute at Baycrest Health Sciences, and he was an Ontario Neurodegenerative Disease Research Institute (ONDRI) scholar where he focused on neuroinformatics and biostatistics."
+		"person":"Abigail Holland, MSc", 
+		"job": "Technical Sales Engineer, IDUN Technologies",
+	    "bio": "Abigail is a pioneering Product Owner at IDUN Technologies, specializing in the innovative integration of EEG technology in earbuds. Playing a pivotal role at the intersection of software development and sales, she focuses on crafting customer-centric EEG solutions. Her significant contributions in validating EEG results have advanced IDUN's product development. With an MSc in Clinical Neuroscience from UCL, Abigail has explored the impact of preprocessing techniques on deep learning-based imaging methods to predict dementia from MRI data. A passionate neuroscience enthusiast, her journey started with leading NeuroTechX initiatives at Queens University."
 	},
 	{
-		"person":"Christopher Hammill, MSc", 
-		"job": "Senior Data Scientist at Data Science and Advanced Analytics (DSAA), \nSt. Michael’s Hospital, Unity Health Toronto",
-	    "bio": "Christopher is a Senior Data Scientist in the Data Science and Advanced Analytics group at Unity Health Toronto. He is currently working on using AI and machine learning to improve patient outcomes in response to traumatic head injuries. He is a brainhack alum who previously did neuroimaging statistics at SickKids, focusing on software develop and bayesian statistics."
+		"person":"Manuela Marescotti, PhD", 
+		"job": "Scientific Editor, Brain Communications",
+	    "bio": "Manuela developed early an interest in genetics that led her to study Biotechnology at the University of Naples "Federico II". Then, she obtained a PhD in neuroscience at the University of Edinburgh, specialising in using fruit flies to study neurodegenerations. After working for several years on research projects both in academia and industry within the field of neuroscience, she joined the editorial team of Brain Communications journal founded by the neuroscientist Prof. Tara Spires-Jones. Within this context, Manuela’s main focus is to guarantee the publication of rigorous and reproducible research and to promote transparency of the editorial process behind the publication of research articles in neuroscience, and editorial careers scientific publishing."
 	},
 	{
-		"person":"Dr. Jenny Rieck", 
-		"job": "Data Scientist, Health Canada",
-	    "bio": "Jenny is a data scientist in the Regulatory Operations and Enforcement Branch of Health Canada. Her work focuses on using data-driven techniques to support risk assessment of health products on the Canadian market. Prior to joining Health Canada, Jenny received her PhD in Cognition & Neuroscience from University of Texas at Dallas and completed a postdoctoral fellowship at the Rotman Research Institute at Baycrest Health Sciences, where her research focused on identifying brain markers of healthy aging."
+		"person":"Arash Samimi, PhD", 
+		"job": "Founder & Managing Partner, Eliomedica Inc.",
+	    "bio": "Arash is the founder and managing partner at Eliomedica Inc, a MedTech consulting firm based out of Toronto. Collaborating with clinicians and entrepreneurs, Arash has partnered with ambitious startups in California, Boston and Toronto to build and commercialize innovative MedTech ranging from medical imaging to robotic surgery systems and point-of-care diagnostic devices. His recent experience at StarFish Medical has enriched his expertise across diverse domains encompassing technical, business, and operational facets. Arash holds a PhD from Queen’s University."
 	},
 	{
 		"person":"Nathan Chan, MSc", 
 		"job": "Data Scientist, Health Canada",
 	    "bio": "Nathan Chan is a Data Scientist in the Regulatory Operations and Enforcement Branch of Health Canada. He works with the Health Products Compliance Directorate to support regulatory operations using analytics and data-driven insights. Prior to joining Health Canada, Nathan completed his MSc in Neuroscience at the University of Toronto’s Institute of Medical Science, where he used medical imaging to investigate neuropathological mechanisms of degeneration in Alzheimer’s disease. "
-	},
-	{
-		"person":"Michael Joseph, MSc", 
-		"job": "Technical Education Specialist, Vector Institute",
-	    "bio": ""
 	}
 ]
