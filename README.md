@@ -1,1 +1,1 @@
-Official Site Repo of CAN-ACN BrainHack 2021
+Official Site Repo of SOBP BrainHack - 2024
